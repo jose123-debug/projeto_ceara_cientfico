@@ -1,0 +1,12 @@
+#titulo{
+    padding: 30px;
+    font-size: 50px;
+}
+#texto{
+    padding: 20px;
+    font-size: 25px;
+    align-items: flex-start;
+    padding: auto;
+    height: 140px;
+    width: 670px;
+}
