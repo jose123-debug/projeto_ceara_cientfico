@@ -5,5 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(162, 146, 177);
+    background-color: rgb(255, 255, 255);
+}
+
+.botao {
+    display: block;
+    padding: 15px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    margin: 20px auto 0;
+    width: fit-content;
 }
