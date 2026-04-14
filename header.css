@@ -24,6 +24,13 @@ header {
 .nav_item.active a{
     border-bottom: 3px solid rgb(0, 42, 255);
 }
-.shape{
-    
+.botao2 {
+    display: inline-block;
+    margin-top:25px;
+    padding: 25px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    margin-top: 40px;
 }
