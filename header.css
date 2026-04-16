@@ -18,11 +18,11 @@ header {
 #nav_lista {
     display: flex;
     list-style: none;
-    gap: 48px;
-
+    gap: 10px;
+    padding: 0px;
     position: absolute;
     left: 50%;
-    transform: translateX(-70%);
+    transform: translateX(-60%);
 }
 
 .nav_item a{
@@ -32,14 +32,16 @@ header {
     font-size: 20px;
     padding: 5px;
     font-style: normal;
+    margin: 5px;
 }
 .nav_item.active a{
     border-bottom: 3px solid rgb(0, 42, 255);
 }
 .botao2 {
+    font-size: 20px;
     height: 20px;
     margin-left: 150px;
-    margin-top: 130px;
+    margin-top: 60px;
     padding: 25px;
     background: blue;
     color: white;
