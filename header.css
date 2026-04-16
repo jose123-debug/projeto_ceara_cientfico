@@ -1,36 +1,53 @@
 header {
-    width: 60%;
+    border: solid black;
+    width: 100%;
     padding: 28px 8%;
+    background-color:#416488;
+    box-shadow: 5px 5px 8px 8px rgb(226, 217, 217);
 }
-#navbar{
+#navbar {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    position: relative; /* importante */
+    color: rgba(255, 255, 255, 0.89);
 }
 #nav_logo{
     font-size: 24px;
 }
-#nav_lista{
+#nav_lista {
     display: flex;
     list-style: none;
     gap: 48px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-70%);
 }
+
 .nav_item a{
     text-decoration: none;
-    color: black;
-    font-weight: 600;
+    color: rgba(255, 255, 255, 0.945);
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px;
+    font-style: normal;
 }
 .nav_item.active a{
     border-bottom: 3px solid rgb(0, 42, 255);
 }
 .botao2 {
-    display: inline-block;
-    margin-top:25px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 130px;
     padding: 25px;
     background: blue;
     color: white;
     text-decoration: none;
-    height: 20px;
-    margin-top: 40px;
+    border-radius: 2rem;
+    width: 210px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
